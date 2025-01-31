@@ -7,7 +7,7 @@ function adicionarAmigo() {
     const nome = inputField.value.trim(); // Captura e remove espaços extras
 
     if (nome === "") {
-        alert("Por favor, insira um nome.");
+        alert("Digite o nome dos seus amigos.");
         return;
     }
 
